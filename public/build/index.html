@@ -12,11 +12,11 @@
           <div class="logo">
             <h1 class="text-xl font-bold">Pitch</h1>
           </div>
-          <div class="menu-section w-56">
+          <div class="menu-section w-48">
             <ul class="flex justify-between text-xs font-thin text-gray-900">
-              <li>Home</li>
-              <li>About</li>
-              <li>News</li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">News</a></li>
             </ul>
           </div>
         </nav>
@@ -181,10 +181,54 @@
             </g>
           </svg>
         </div>
-        <h1 class="text-4xl text-center flex flex-col">
-          <span>The future of </span>
-          <span>presenting starts here</span>
-        </h1>
+        <div class="title text-center w-6/12 mx-auto">
+          <h1 class="text-4xl font-bold flex flex-col mt-6">
+            <span>The future of </span>
+            <span>presenting starts here</span>
+          </h1>
+          <p class="mt-4 text-sm font-light">
+            An open platform for presentations and content collaboration. Sign
+            up to get early access
+          </p>
+          <form class="pt-8 flex items-center justify-center">
+            <input
+              type="text"
+              placeholder="Your Email"
+              class="border px-6 text-md placeholder-gray-600"
+            />
+            <button
+              class="bg-purple-600 py-1 px-6 text-xs text-white rounded-r-md"
+            >
+              Sign up
+            </button>
+          </form>
+          <!-- SOCIAL MEDIA SECTION -->
+          <div
+            class="social-icons flex items-center justify-evenly text-xs text-gray-700-custom mt-12 w-8/12 mx-auto"
+          >
+            <div class="twitter flex">
+              <img
+                src="/public/build/images/twitter.png"
+                class="w-4"
+                alt="twitter logo"
+              />
+              <a href="https://wwww.twitter.com" target="_blank" class="pl-1"
+                >Share on Twitter</a
+              >
+            </div>
+            <div class="facebook flex">
+              <img
+                src="/public/build/images/facebook.png"
+                class="w-4"
+                alt="facebook logo"
+              />
+              <a href="https://www.facebook.com" target="_blank" class="pl-1"
+                >Share on Facebook</a
+              >
+            </div>
+          </div>
+          <!-- SOCILA MEDIA ENDS HERE  -->
+        </div>
       </header>
     </div>
   </body>
